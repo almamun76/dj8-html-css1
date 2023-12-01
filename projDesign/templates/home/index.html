@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+
+{% comment %} load static module (custom) {% endcomment %}
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    {% comment %} hyperlink static projDesign>static>css>sytle.css file {% endcomment %}
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+    <title>home</title>
+</head>
+<body>
+	<!-- start container -->
+	<div class="container">
+		<!-- start header -->
+		<div class="header">
+			<div class="logo">
+				<h3 style="text-align: center;">Logo</h3>
+			</div>
+			<div class="title">
+				<h3 style="text-align: center;">Banner</h3>
+			</div>
+		</div>
+		<!-- End Header -->
+		<div class="hmenu">
+			<ul>
+				<a href="#"><li>Home</li></a>
+				<a href="#"><li>About</li></a>
+				<a href="#"><li>Skills</li></a>
+				<a href="#"><li>Services</li></a>
+				<a href="#"><li>Contact</li></a>
+				<a href="#"><li>Sign In</li></a>
+				<a href="#"><li>Sign Up</li></a>
+			</ul>
+		</div>
+		<div class="imageslider" style="text-align: center;">
+			<h1>Image Slider</h1>
+		</div>
+		<div class="scrollingnews" style="text-align: center;">
+			<h3>Current events</h3>
+		</div>
+		
+		<div class="content">
+			<div class="leftsidebar">
+				<ul>
+					<a href="#"><li>Home</li></a>
+                    <a href="#"><li>About</li></a>
+                    <a href="#"><li>Skills</li></a>
+                    <a href="#"><li>Services</li></a>
+                    <a href="#"><li>Contact</li></a>
+                    <a href="#"><li>Sign In</li></a>
+                    <a href="#"><li>Sign Up</li></a>
+				</ul>
+			</div>
+			<div class="middlebar">
+				<div class="sec1">
+					<p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sequi modi repellat praesentium consectetur molestias, eligendi minus maiores obcaecati omnis voluptatum unde sed commodi iusto dolor facere provident soluta. Tenetur, dolorem?</p>
+				</div> 
+				<div class="sec2">
+					<table>
+						<tr>
+							<td>
+
+							</td>
+							<td>
+
+							</td>
+						</tr>
+					</table>
+				</div>
+				<div class="sec3">
+					<form action="">
+						<input type="text" placeholder="Enet your name">
+						<input type="email" placeholder="Enet your email">
+						<input type="password" placeholder="Enet your password">
+						<div>
+							<h4>Select any 3</h4>
+							<input type="checkbox"> Html
+							<input type="checkbox"> CSS
+							<input type="checkbox"> JavaScript
+							<input type="checkbox"> SQLite
+						</div>
+						<div>
+							<h4>Select your preferred programming language</h4>
+							<input type="radio" name="course"> Python
+							<input type="radio" name="course"> PHP
+							<input type="radio" name="course"> Java
+							<input type="radio" name="course"> C#
+						</div>		
+						</table>
+					</form>
+				</div>
+
+				<div class="sec4">
+					<table>
+						<tr>
+						  <th>Name</th>
+						  <th>ID</th>
+						  <th>Country</th>
+						</tr>
+						<tr>
+						  <td>Rubel</td>
+						  <td>101</td>
+						  <td>Dhaka</td>
+						</tr>
+						<tr>
+						  <td>Babul</td>
+						  <td>102</td>
+						  <td>Barishal</td>
+						</tr>
+						<tr>
+						  <td>Helal</td>
+						  <td>103</td>
+						  <td>Rajshahi</td>
+						</tr>
+						<tr>
+						  <td>Mamun</td>
+						  <td>104</td>
+						  <td>Dhaka</td>
+						</tr>
+					  </table>
+				</div> 
+			</div>
+
+			<div class="rightsidebar">
+			<span class="linkhead">Important Links</span>
+				<ul>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+					<a href="https://aiquest.org/"><li>Ai-Quest</li></a>
+				</ul>
+			</div>
+		</div>
+
+		<div class="footer">
+			<div class="footertext">&copy; 2023 | Abdullah Al Mamun</div>
+		</div>
+	</div>
+	<!-- End container -->
+</body>
+</html>
